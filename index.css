@@ -1,4 +1,54 @@
-h1{
-  font-size:72pt;
-  color:blue;
+html {
+  height: 100%;
+}
+body {
+  background-color: #2f3035;
+  background-image: url(images/jenos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+h1 {
+  font-size: 72pt;
+  color: blue;
+  font-style: italic;
+}
+header {
+  
+  width: 1000px;
+  height: 150px;
+}
+nav {
+  text-align: center;
+  height: 100px;
+background-color: rgba(192, 192, 192, 0.904);
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav {
+  font-size: 40pt;
+  color: black;
+  text-decoration: black;
+}
+
+.text {
+  font-size: 35pt;
+  color: rgb(172, 27, 27);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.boxOfText {
+  text-align: center;
+  padding-top: 10px;
+
+  background-color: rgba(192, 192, 192, 0.479);
+  width: 950px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box2 {
+  background-color: skyblue;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
 }
